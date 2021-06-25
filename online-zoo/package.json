@@ -1,0 +1,17 @@
+{
+  "name": "online-zoo",
+  "version": "1.0.0",
+  "description": "first version of package",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass --watch src/sass/style.scss src/sass/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Podexus23/shiny-cotash"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/Podexus23/shiny-cotash#readme"
+}
