@@ -1,0 +1,20 @@
+.header__navigation{
+  width: 45%;
+  align-self: center;
+}
+
+.navigation__links{
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation__link{
+  color: $color-button-text;
+  @extend %transition;
+  @include font($size: 1.6rem, $height: 2.2rem, $weight: 500);
+  &:hover{
+    color: $color-primary;
+  }
+  
+}
+
