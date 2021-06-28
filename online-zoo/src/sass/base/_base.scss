@@ -19,7 +19,10 @@ h3 {
   @include font($size: 3.6rem, $height: 4.7rem, $weight: 400);
 }
 
+.subtle{
+  @include font($size: 2.4rem, $height: 2.9rem, $weight: 400);
+}
 
-a{
+a {
   text-decoration: none;
 }

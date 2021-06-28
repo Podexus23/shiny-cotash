@@ -408,7 +408,7 @@ th {
   padding: 0;
 }
 
-ul {
+ul, p {
   margin: 0;
   padding-left: 0;
   list-style: none;
@@ -477,6 +477,13 @@ h3 {
   font-style: normal;
   font-weight: 400;
   line-height: 4.7rem;
+}
+
+.subtle {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.9rem;
 }
 
 a {
@@ -562,6 +569,7 @@ a {
   text-transform: uppercase;
   text-align: center;
   color: #FFFFFF;
+  cursor: default;
   margin: 0;
 }
 .promo-cover__title .colored {
@@ -571,8 +579,8 @@ a {
 .promo-cover__back-circle {
   position: absolute;
   right: 9%;
-  width: 40%;
-  height: 65%;
+  width: 465px;
+  height: 465px;
   border-radius: 50%;
   background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
 }
@@ -580,6 +588,36 @@ a {
 .cover-title__button {
   align-self: flex-end;
   margin-right: 9%;
+}
+
+.backstage {
+  padding: 140px 0 180px;
+  background: url(../img/background/bckgr_flower1.png) no-repeat;
+  background-position: right 10%;
+}
+
+.backstage__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.backstage__img {
+  padding-right: 87px;
+  height: 403px;
+}
+
+.backstage__description {
+  display: flex;
+  flex-direction: column;
+  color: #333B41;
+}
+
+.backstage__title {
+  margin: 0 0 20px;
+}
+
+.description__title {
+  margin: 54px 0 34px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,24 @@
+.backstage{
+  padding: 140px 0 180px;
+  background: url(../img/background/bckgr_flower1.png) no-repeat;
+  background-position: right 10%;
+}
+.backstage__wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.backstage__img{
+  padding-right: 87px;
+  height: 403px;
+}
+.backstage__description{
+  display: flex;
+  flex-direction: column;
+  color:$color-text;
+}
+.backstage__title{
+  margin: 0 0 20px;
+}
+.description__title {
+  margin:54px 0 34px;
+}
