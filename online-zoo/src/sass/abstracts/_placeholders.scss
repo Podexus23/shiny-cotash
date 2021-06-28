@@ -5,3 +5,25 @@
 %transition {
   transition: all .3s ease-out;
 }
+
+%button-gradient-transition{
+    position: relative;
+    z-index: 100;
+    &:before {
+      content: '';
+      height: 100%;
+      width: 100%;
+      border-radius: 25px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      z-index: -100;
+      transition: opacity 1.0s;
+    }
+
+    &:hover:before {
+      background: #4B9200;
+      opacity: 1;
+    }
+}

@@ -417,7 +417,7 @@ ul {
   box-sizing: border-box;
 }
 
-html {
+body {
   font-family: "Roboto", Verdana, sans-serif;
 }
 
@@ -425,12 +425,84 @@ html {
   transition: all 0.3s ease-out;
 }
 
+.button {
+  position: relative;
+  z-index: 100;
+}
+.button:before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  border-radius: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: -100;
+  transition: opacity 1s;
+}
+.button:hover:before {
+  background: #4B9200;
+  opacity: 1;
+}
+
 html {
   font-size: 10px;
 }
 
+body {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2.6rem;
+}
+
+h1 {
+  font-size: 10.65rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 8rem;
+}
+
+h2 {
+  font-size: 4.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 5.8rem;
+}
+
+h3 {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 4.7rem;
+}
+
 a {
   text-decoration: none;
+}
+
+.logo {
+  width: 82px;
+  height: 52px;
+}
+
+.header__logo {
+  margin-right: 5.5%;
+}
+
+.button {
+  width: 298px;
+  height: 54px;
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.2rem;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  border-radius: 25px;
+  border: 0px;
 }
 
 .header {
@@ -440,6 +512,11 @@ a {
 
 .header__wrapper {
   display: flex;
+}
+
+.top__wrapper {
+  background: no-repeat url("../img/background/main-top-bckgr.png");
+  background-size: cover;
 }
 
 .wrapper {
@@ -468,13 +545,40 @@ a {
   color: #F9804B;
 }
 
-.logo {
-  width: 82px;
-  height: 52px;
+.promo-cover {
+  padding: 12px 0 100px 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
-.header__logo {
-  margin-right: 5.5%;
+.promo-cover__title {
+  width: 43%;
+  z-index: 0;
+  padding: 86px 12px 60px;
+  align-self: flex-end;
+  text-transform: uppercase;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0;
+}
+.promo-cover__title .colored {
+  color: #FFEE2E;
+}
+
+.promo-cover__back-circle {
+  position: absolute;
+  right: 9%;
+  bottom: 31%;
+  width: 40%;
+  height: 65%;
+  border-radius: 50%;
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+}
+
+.cover-title__button {
+  align-self: flex-end;
+  margin-right: 9%;
 }
 
 /*# sourceMappingURL=style.css.map */

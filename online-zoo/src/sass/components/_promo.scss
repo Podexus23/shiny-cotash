@@ -1,0 +1,33 @@
+.promo-cover{
+  padding: 12px 0 100px 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.promo-cover__title{
+  width: 43%;
+  z-index: 0;
+  padding: 86px 12px 60px;
+  align-self: flex-end;
+  text-transform: uppercase;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0;
+  .colored{
+    color:$color-highlighted-text;
+  }
+}
+.promo-cover__back-circle{
+  position: absolute;
+  right: 9%;
+  bottom: 31%;
+  width: 40%;
+  height: 65%;
+  border-radius: 50%;
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+}
+
+.cover-title__button{
+  align-self: flex-end;
+  margin-right: 9%;
+}
