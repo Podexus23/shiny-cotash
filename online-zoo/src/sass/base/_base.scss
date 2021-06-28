@@ -4,7 +4,7 @@ html {
 
 body{
   @extend %first-font;
-  @include font($size: 1.6rem, $height: 2.6rem);
+  @include font($size: 1.6rem, $height: 2.2rem);
 }
 
 h1{

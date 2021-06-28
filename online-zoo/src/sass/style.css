@@ -409,6 +409,7 @@ th {
 }
 
 ul {
+  margin: 0;
   padding-left: 0;
   list-style: none;
 }
@@ -454,7 +455,7 @@ body {
   font-size: 1.6rem;
   font-style: normal;
   font-weight: normal;
-  line-height: 2.6rem;
+  line-height: 2.2rem;
 }
 
 h1 {
@@ -532,6 +533,7 @@ a {
 .navigation__links {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .navigation__link {
@@ -555,7 +557,7 @@ a {
 .promo-cover__title {
   width: 43%;
   z-index: 0;
-  padding: 86px 12px 60px;
+  padding: 74px 12px 60px;
   align-self: flex-end;
   text-transform: uppercase;
   text-align: center;
@@ -569,7 +571,6 @@ a {
 .promo-cover__back-circle {
   position: absolute;
   right: 9%;
-  bottom: 31%;
   width: 40%;
   height: 65%;
   border-radius: 50%;
