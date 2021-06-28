@@ -447,6 +447,27 @@ body {
   opacity: 1;
 }
 
+.arrow {
+  position: relative;
+  z-index: 100;
+}
+.arrow:before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: -100;
+  transition: opacity 1s;
+}
+.arrow:hover:before {
+  background: #4B9200;
+  opacity: 1;
+}
+
 html {
   font-size: 10px;
 }
@@ -479,11 +500,25 @@ h3 {
   line-height: 4.7rem;
 }
 
+h4 {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.2rem;
+}
+
 .subtle {
   font-size: 2.4rem;
   font-style: normal;
   font-weight: 400;
   line-height: 2.9rem;
+}
+
+.small-p {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.8rem;
 }
 
 a {
@@ -513,6 +548,40 @@ a {
   border: 0px;
 }
 
+.arrow {
+  width: 64px;
+  height: 64px;
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  border-radius: 50%;
+  border: 0px;
+}
+
+.animal-slider__slide {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  border: 1px solid #FE9013;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.animal-slider__slide h4 {
+  text-transform: uppercase;
+  margin: 0;
+}
+.animal-slider__slide .vegetable-slide {
+  background-image: url("../img/icons/banana-bamboo_icon.svg");
+  background-repeat: no-repeat;
+  background-position: 97% 50%;
+}
+.animal-slider__slide .carnivore-slide {
+  background-image: url("../img/icons/meet-fish_icon.svg");
+  background-repeat: no-repeat;
+  background-position: 97% 50%;
+}
+.animal-slider__slide .slide-description {
+  padding: 8px 56px 8px 16px;
+}
+
 .header {
   background: #000000;
   padding: 14px 0;
@@ -530,6 +599,16 @@ a {
 .wrapper {
   max-width: 1160px;
   margin: auto;
+}
+
+.layout-3-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.layout-3-column > * {
+  flex-basis: 30%;
+  height: fit-content;
 }
 
 .header__navigation {
@@ -603,7 +682,6 @@ a {
 
 .backstage__img {
   padding-right: 87px;
-  height: 403px;
 }
 
 .backstage__description {
@@ -617,7 +695,30 @@ a {
 }
 
 .description__title {
-  margin: 54px 0 34px;
+  margin: 52px 0 32px;
+}
+
+.animal-slider {
+  padding-bottom: 100px;
+  text-align: center;
+  background: url(../img/background/bckgr_flower2.png), url(../img/background/bckgr_flower3.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom right, bottom left;
+}
+
+.animal-slider__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1322px;
+  margin: auto;
+}
+.animal-slider__wrapper .left {
+  transform: rotate(180deg);
+}
+
+.animal-slider__button {
+  margin-top: 70px;
 }
 
 /*# sourceMappingURL=style.css.map */

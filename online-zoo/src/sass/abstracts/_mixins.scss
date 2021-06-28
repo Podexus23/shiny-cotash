@@ -5,3 +5,9 @@
   line-height: $height;
 }
 
+@mixin background-image ($url, $repeat: no-repeat, $position: 50% 50%) {
+  background-image: url($url);
+  background-repeat: $repeat;
+  background-position: $position;
+}
+

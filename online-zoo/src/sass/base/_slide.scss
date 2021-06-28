@@ -1,0 +1,24 @@
+.animal-slider__slide{
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  border: 1px solid #FE9013;
+  border-radius: 5px;
+  margin-bottom: 20px;
+
+  h4{
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .vegetable-slide{
+    @include background-image ($url:'../img/icons/banana-bamboo_icon.svg', $position: 97% 50%)
+  }
+  .carnivore-slide {
+    @include background-image ($url:'../img/icons/meet-fish_icon.svg', $position: 97% 50%)
+  }
+  .slide-description {
+    padding: 8px 56px 8px 16px;
+  }
+}
+

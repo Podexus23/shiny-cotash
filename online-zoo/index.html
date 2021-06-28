@@ -43,9 +43,12 @@
     </div>
     <section class="backstage">
       <div class="backstage__wrapper wrapper">
-        <div class="backstage__img">
-          <img src="./src/img/promo/bamboo-cap.jpg" alt="old man" />
-        </div>
+        <img
+          src="./src/img/promo/bamboo-cap.jpg"
+          alt="old man"
+          class="backstage__img"
+        />
+
         <div class="backstage__description">
           <h2 class="backstage__title">
             The Backstage of the Wilderness World.
@@ -67,69 +70,67 @@
     </section>
     <section class="animal-slider">
       <div class="animal-slider__wrapper">
-        <button class="animal-slider__button button left"></button>
-        <div class="animal-slider__slider">
-          <div class="animal-slider__slide">
-            <div class="slide__picture"><img src="" alt="" /></div>
-            <div class="slide__description">
-              <h3 class="slider__animal">giant Pandas</h3>
-              <p class="slide__animal-place">Native to Southwest China</p>
-              <img src="" alt="" class="slide_type-of-food" />
+        <button class="animal-slider__arrow arrow left">
+          <img src="./src/img/icons/slider_arrow.svg" alt="" />
+        </button>
+        <div class="animal-slider__slides wrapper layout-3-column">
+          <article class="animal-slider__slide">
+            <img src="./src/img/slider/panda-slide.jpg" alt="" />
+            <div class="slide-description vegetable-slide">
+              <h4 class="slide-animal">giant Pandas</h4>
+              <p class="small-p">Native to Southwest China</p>
             </div>
-          </div>
-          <div class="animal-slider__slide">
-            <div class="slide__picture"><img src="" alt="" /></div>
-            <div class="slide__description">
-              <h3 class="slider__animal">Eagles</h3>
-              <p class="slide__animal-place">Native to South America</p>
-              <img src="" alt="" class="slide_type-of-food" />
+          </article>
+          <article class="animal-slider__slide">
+            <img src="./src/img/slider/eagle-slide.jpg" alt="" />
+            <div class="slide-description carnivore-slide">
+              <h4 class="slide-animal">Eagles</h4>
+              <p class="small-p">Native to South America</p>
             </div>
-          </div>
-          <div class="animal-slider__slide">
-            <div class="slide__picture"><img src="" alt="" /></div>
-            <div class="slide__description">
-              <h3 class="slider__animal">Gorillas</h3>
-              <p class="slide__animal-place">Native to Congo</p>
-              <img src="" alt="" class="slide_type-of-food" />
+          </article>
+          <article class="animal-slider__slide">
+            <img src="./src/img/slider/gorilla-slide.jpg" alt="" />
+            <div class="slide-description vegetable-slide">
+              <h4 class="slide-animal">Gorillas</h4>
+              <p class="small-p">Native to Congo</p>
             </div>
-          </div>
-          <div class="animal-slider__slide">
-            <div class="slide__picture"><img src="" alt="" /></div>
-            <div class="slide__description">
-              <h3 class="slider__animal">Two-toed Sloth</h3>
-              <p class="slide__animal-place">Mesoamerica, South America</p>
-              <img src="" alt="" class="slide_type-of-food" />
+          </article>
+          <article class="animal-slider__slide">
+            <img src="./src/img/slider/sloth-slide.jpg" alt="" />
+            <div class="slide-description vegetable-slide">
+              <h4 class="slide-animal">Two-toed Sloth</h4>
+              <p class="small-p">Mesoamerica, South America</p>
             </div>
-          </div>
-          <div class="animal-slider__slide">
-            <div class="slide__picture"><img src="" alt="" /></div>
-            <div class="slide__description">
-              <h3 class="slider__animal">cheetahs</h3>
-              <p class="slide__animal-place">Native to Africa</p>
-              <img src="" alt="" class="slide_type-of-food" />
+          </article>
+          <article class="animal-slider__slide">
+            <img src="./src/img/slider/cheetah-slide.jpg" alt="" />
+            <div class="slide-description carnivore-slide">
+              <h4 class="slide-animal">cheetahs</h4>
+              <p class="small-p">Native to Africa</p>
             </div>
-          </div>
-          <div class="animal-slider__slide">
-            <div class="slide__picture"><img src="" alt="" /></div>
-            <div class="slide__description">
-              <h3 class="slider__animal">Penguins</h3>
-              <p class="slide__animal-place">Native to Antarctica</p>
-              <img src="" alt="" class="slide_type-of-food" />
+          </article>
+          <article class="animal-slider__slide">
+            <img src="./src/img/slider/penguin-slide.jpg" alt="" />
+            <div class="slide-description carnivore-slide">
+              <h4 class="slide-animal">Penguins</h4>
+              <p class="small-p">Native to Antarctica</p>
             </div>
-          </div>
+          </article>
         </div>
-        <button class="animal-slider__button button right"></button>
+        <button class="animal-slider__arrow arrow right">
+          <img src="./src/img/icons/slider_arrow.svg" alt="" />
+        </button>
       </div>
-      <button class="anima-slider__button button">choose your favorite</button>
+      <button class="animal-slider__button button">choose your favorite</button>
     </section>
     <section class="feed-a-friend">
       <div class="feed-a-friend_wrapper wrapper">
         <div class="feed-a-friend__description">
           <h2 class="feed-a-friend__title colored">Pick and feed a friend</h2>
-          <h3>
+          <h4>
             We know the animals bring you joy, and in these extraordinary times,
             we’re glad.
-          </h3>
+          </h4>
           <p class="bold text">
             During a time when the COVID-19 epidemic is touching all of our
             lives, we’re proud and glad that people around the world find joy in
@@ -170,7 +171,7 @@
               <div class="testimonial__person">
                 <img src="" alt="" class="person__avatar" />
                 <div class="person__info">
-                  <h3 class="person__name">Michael John</h3>
+                  <h4 class="person__name">Michael John</h4>
                   <ul>
                     <li class="person_location">Local Austria</li>
                     <li class="person__day">Today</li>
@@ -196,7 +197,7 @@
               <div class="testimonial__person">
                 <img src="" alt="" class="person__avatar" />
                 <div class="person__info">
-                  <h3 class="person__name">Oskar Samborsky</h3>
+                  <h4 class="person__name">Oskar Samborsky</h4>
                   <ul>
                     <li class="person_location">Local Austria</li>
                     <li class="person__day">Yesterday</li>
@@ -226,7 +227,7 @@
               <div class="testimonial__person">
                 <img src="" alt="" class="person__avatar" />
                 <div class="person__info">
-                  <h3 class="person__name">Fredericka Michelin</h3>
+                  <h4 class="person__name">Fredericka Michelin</h4>
                   <ul>
                     <li class="person_location">Local Austria</li>
                     <li class="person__day">Yesterday</li>
@@ -254,7 +255,7 @@
               <div class="testimonial__person">
                 <img src="" alt="" class="person__avatar" />
                 <div class="person__info">
-                  <h3 class="person__name">Mila Riksha</h3>
+                  <h4 class="person__name">Mila Riksha</h4>
                   <ul>
                     <li class="person_location">Local Austria</li>
                     <li class="person__day">Yesterday</li>

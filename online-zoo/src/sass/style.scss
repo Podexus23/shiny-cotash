@@ -9,12 +9,15 @@
 @import "./base/base";
 @import "./base/logo";
 @import "./base/buttons";
+@import "./base/slide";
 
 //layouts
 @import "./layout/header";
 @import "./layout/wrapper";
+@import "./layout/layout-3-column";
 
 //components
 @import "./components/navigation";
 @import "./components/promo";
 @import "./components/backstage";
+@import "./components/animal-slider";
