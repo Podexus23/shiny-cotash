@@ -1,0 +1,8 @@
+.layout-4-row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  .piece{
+    flex-basis: 23%;
+  }
+}

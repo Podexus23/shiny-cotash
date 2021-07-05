@@ -1,0 +1,84 @@
+.testimonials{
+  padding: 140px 0 180px;
+  .title{
+    text-align: center;
+    color: $color-text;
+    margin: 0 auto 47px;
+  }
+  background: url(../img/background/leav_foto.png) no-repeat;
+  background-position-y: 125%;
+  background-position-x: right;
+
+}
+
+.testimonials__carousel{
+  padding-bottom: 21px;
+}
+
+.testimonial{
+  border-radius: 20px;
+  background: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%),
+  linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .testimonial-wrapper{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    width: calc(100% - 4px);
+    height: calc(100% - 3px);
+    border-radius: 18px;
+  }
+}
+
+.testimonial__person{
+  display: flex;
+  margin-top: 15px;
+  .person__avatar {
+    width: 37px;
+    height: 37px;
+    margin: 0 10px 0 16px;
+  }
+  .person__name {
+    margin: 0;
+  }
+}
+
+.person__info{
+  ul{
+    display: flex;
+    li{
+      color:$color-testimonial-day;
+    }
+  }
+  .person__day{
+    &::before{
+      padding: 0 5px 0 6px;
+      content: "•";
+    }
+  }
+}
+
+.testimonial__text{
+  color: $color-testimonials;
+  padding: 10px 15px 0 16px;
+  margin-bottom: 19px;
+  max-height: 301px;
+  overflow: hidden;
+}
+.testimonials__carousel_controller{
+  width: 45%;
+  height: 8px;
+  border: 1px solid $color-testimonial-day;
+  border-radius: 5px;
+  margin: 0 auto 31px;
+  .controller-joystick{
+    width: 30%;
+    height: 6px;
+    background-color: $colored-title;
+    border-radius: 5px;
+  }
+}
+
+

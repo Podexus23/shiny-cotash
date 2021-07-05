@@ -10,14 +10,19 @@
 @import "./base/logo";
 @import "./base/buttons";
 @import "./base/slide";
+@import "./base/sub-form";
 
 //layouts
 @import "./layout/header";
 @import "./layout/wrapper";
 @import "./layout/layout-3-column";
+@import "./layout/layout-4-row";
+@import "./layout/footer";
 
 //components
 @import "./components/navigation";
 @import "./components/promo";
 @import "./components/backstage";
 @import "./components/animal-slider";
+@import "./components/feed-a-friend";
+@import "./components/testimonials";

@@ -18,3 +18,8 @@
     border: 0px;
     @extend %arrow-gradient-transition
 }
+
+.squared{
+  border-radius: 5px;
+  @extend %squared-gradient-transition
+}

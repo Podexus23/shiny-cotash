@@ -17,9 +17,7 @@
     <div class="top__wrapper">
       <header class="header">
         <div class="header__wrapper wrapper">
-          <div class="header__logo logo">
-            <img src="./src/img/icons/logo_footer.png" alt="logo" />
-          </div>
+          <a class="header__logo logo" href="#"></a>
           <nav class="header__navigation">
             <ul class="navigation__links">
               <li><a href="#" class="navigation__link">About</a></li>
@@ -57,7 +55,7 @@
             The site was founded on the basis of a volunteer movement to protect
             and care for animals.
           </p>
-          <h3 class="description__title subtle">How it works</h3>
+          <h3 class="description__title subtitle">How it works</h3>
           <p class="text">
             The main goal is to help the animals, as well as the nature reserves
             and zoos where they are kept. We are currently working on video
@@ -124,10 +122,10 @@
       <button class="animal-slider__button button">choose your favorite</button>
     </section>
     <section class="feed-a-friend">
-      <div class="feed-a-friend_wrapper wrapper">
+      <div class="feed-a-friend__wrapper wrapper">
         <div class="feed-a-friend__description">
-          <h2 class="feed-a-friend__title colored">Pick and feed a friend</h2>
-          <h4>
+          <h2 class="feed-a-friend__title">Pick and feed a friend</h2>
+          <h4 class="subtitle">
             We know the animals bring you joy, and in these extraordinary times,
             we’re glad.
           </h4>
@@ -139,37 +137,56 @@
           <p class="text">
             Even though the zoo has reopened, we need you now more than ever to
             help us deal with these problems. Please consider a gift to our
-            <span class="underscore">Emergency Support Fund </span>.
+            <span class="underscore">Emergency Support Fund</span> .
           </p>
         </div>
         <div class="feed-a-friend__scheme">
-          <h2 class="scheme__title">How it works</h2>
-          <div class="scheme__card">
-            <div class="card__picture"></div>
-            <p class="card__name">Pay with card</p>
-          </div>
-          <span class="scheme__arrow"></span>
-          <div class="scheme__card">
-            <div class="card__picture"></div>
-            <p class="card__name">Payment goes to the zoo</p>
-          </div>
-          <span class="scheme__arrow"></span>
-          <div class="scheme__card">
-            <div class="card__picture"></div>
-            <p class="card__name">Your favourite animal gets delicious dish</p>
+          <h3 class="scheme__title">How it works</h3>
+          <div class="scheme-wrapper">
+            <div class="scheme__card">
+              <div class="card__picture">
+                <img src="./src/img/icons/pay.svg" alt="" />
+              </div>
+              <p class="card__name">Pay with card</p>
+            </div>
+            <span class="scheme__arrow"
+              ><img src="./src/img/icons/vector.svg" alt=""
+            /></span>
+            <div class="scheme__card">
+              <div class="card__picture">
+                <img src="./src/img/icons/grow.svg" alt="" />
+              </div>
+              <p class="card__name">Payment goes to the zoo</p>
+            </div>
+            <span class="scheme__arrow"
+              ><img src="./src/img/icons/vector.svg" alt=""
+            /></span>
+            <div class="scheme__card">
+              <div class="card__picture">
+                <img src="./src/img/icons/feed.svg" alt="" />
+              </div>
+              <p class="card__name">
+                Your favourite animal gets delicious dish
+              </p>
+            </div>
           </div>
         </div>
+
         <button class="feed-a-friend__button button">feed a friend now</button>
       </div>
     </section>
     <section class="testimonials">
-      <div class="testimonials__wrapepr wrapper">
-        <h2 class="testimonials__title title">Testimonials</h2>
-        <div class="testimonials__carousel">
-          <div class="testimonial_wrapper">
-            <div class="testimonial">
+      <div class="testimonials__wrapper wrapper">
+        <h3 class="testimonials__title title">Testimonials</h3>
+        <div class="testimonials__carousel layout-4-row">
+          <div class="testimonial piece">
+            <div class="testimonial-wrapper">
               <div class="testimonial__person">
-                <img src="" alt="" class="person__avatar" />
+                <img
+                  src="./src/img/icons/avatar-icon.png"
+                  alt=""
+                  class="person__avatar"
+                />
                 <div class="person__info">
                   <h4 class="person__name">Michael John</h4>
                   <ul>
@@ -192,10 +209,14 @@
               </div>
             </div>
           </div>
-          <div class="testimonial_wrapper">
-            <div class="testimonial">
+          <div class="testimonial piece">
+            <div class="testimonial-wrapper">
               <div class="testimonial__person">
-                <img src="" alt="" class="person__avatar" />
+                <img
+                  src="./src/img/avatar/oskar.jpg"
+                  alt=""
+                  class="person__avatar"
+                />
                 <div class="person__info">
                   <h4 class="person__name">Oskar Samborsky</h4>
                   <ul>
@@ -222,10 +243,14 @@
               </div>
             </div>
           </div>
-          <div class="testimonial_wrapper">
-            <div class="testimonial">
+          <div class="testimonial piece">
+            <div class="testimonial-wrapper">
               <div class="testimonial__person">
-                <img src="" alt="" class="person__avatar" />
+                <img
+                  src="./src/img/avatar/frederica.jpg"
+                  alt=""
+                  class="person__avatar"
+                />
                 <div class="person__info">
                   <h4 class="person__name">Fredericka Michelin</h4>
                   <ul>
@@ -250,10 +275,14 @@
               </div>
             </div>
           </div>
-          <div class="testimonial_wrapper">
-            <div class="testimonial">
+          <div class="testimonial piece">
+            <div class="testimonial-wrapper">
               <div class="testimonial__person">
-                <img src="" alt="" class="person__avatar" />
+                <img
+                  src="./src/img/avatar/mila.jpg"
+                  alt=""
+                  class="person__avatar"
+                />
                 <div class="person__info">
                   <h4 class="person__name">Mila Riksha</h4>
                   <ul>
@@ -280,7 +309,9 @@
             </div>
           </div>
         </div>
-        <div class="testimonials__carousel_controller"></div>
+        <div class="testimonials__carousel_controller">
+          <div class="controller-joystick"></div>
+        </div>
         <button class="testimonials__button button squared">
           leave feedback
         </button>
@@ -289,30 +320,34 @@
     <footer class="footer">
       <div class="footer-wrapper wrapper">
         <div class="footer__left-side">
-          <div class="footer__logo logo"></div>
+          <a href="#" class="footer__logo logo"></a>
           <button class="footer__button button squared">
             donate for volunteers
           </button>
           <ul class="footer__socials">
             <li>
-              <img src="" alt="" /><a href="" class="footer__link link"
-                >Facebook</a
-              >
+              <div class="icon-wrapper">
+                <img src="./src/img/socials/facebook.svg" alt="" />
+              </div>
+              <a href="" class="footer__link link">Facebook</a>
             </li>
             <li>
-              <img src="" alt="" /><a href="" class="footer__link link"
-                >Twitter</a
-              >
+              <div class="icon-wrapper">
+                <img src="./src/img/socials/twitter.svg" alt="" />
+              </div>
+              <a href="" class="footer__link link">Twitter</a>
             </li>
             <li>
-              <img src="" alt="" /><a href="" class="footer__link link"
-                >Instagram</a
-              >
+              <div class="icon-wrapper">
+                <img src="./src/img/socials/instagramm.svg" alt="" />
+              </div>
+              <a href="" class="footer__link link">Instagram</a>
             </li>
             <li>
-              <img src="" alt="" /><a href="" class="footer__link link"
-                >YouTube</a
-              >
+              <div class="icon-wrapper">
+                <img src="./src/img/socials/youtube.svg" alt="" />
+              </div>
+              <a href="" class="footer__link link">YouTube</a>
             </li>
           </ul>
         </div>
@@ -326,15 +361,20 @@
         </div>
         <div class="footer__right-side">
           <div class="footer__subscription">
-            <h2 class="subscription__title">Subscribe to our news</h2>
+            <h2 class="subscription__title subtitle">Subscribe to our news</h2>
             <div class="subscription__submit-form">
               <input
                 type="email"
                 name=""
                 id=""
                 placeholder="Enter your email"
+                class="submit-email"
               />
-              <input type="button" value="Submit" />
+              <input
+                type="button"
+                value="Submit"
+                class="submit-button button squared"
+              />
             </div>
           </div>
           <div class="footer__copyrights">
