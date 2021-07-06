@@ -7,6 +7,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  .active {
+    color: $color-primary;
+  }
 }
 
 .navigation__link{
@@ -17,4 +20,5 @@
     color: $color-primary;
   }
 }
+
 

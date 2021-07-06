@@ -36,6 +36,10 @@ h4{
 .underscore{
   text-decoration: underline;
   text-decoration-color: $colored-title;
+  color:$color-text;
+  &:active{
+    color:$color-text;
+  }
 }
 a {
   text-decoration: none;
