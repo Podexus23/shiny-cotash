@@ -5,12 +5,10 @@
   border: 1px solid #FE9013;
   border-radius: 5px;
   margin-bottom: 20px;
-
   h4{
     text-transform: uppercase;
     margin: 0;
   }
-
   .vegetable-slide{
     @include background-image ($url:'../img/icons/banana-bamboo_icon.svg', $position: 97% 50%)
   }
@@ -20,5 +18,35 @@
   .slide-description {
     padding: 8px 56px 8px 16px;
   }
+  img{
+    opacity: 1;
+  }
+  &:hover{
+    img{
+      position: relative;
+      z-index: -1;
+      transform: scale(110%);
+      transition: all 1.1s ease-in-out;
+    }
+    .slide-animal{
+      color:$color-button-text;
+      font-size: 3.2rem;
+      transform: translateY(-15vh);
+      transition: all 1.1s ease-in-out;
+    }
+    p{
+      color:$color-button-text;
+      font-size: 2.0rem;
+      transform: translateY(-14vh);
+      transition: all 1.1s ease-in-out;
+    }
+    box-shadow: rgba(0, 0, 0, 0.6) 100vh 100vh 100vh 100vh inset;
+    transition: all 1.1s ease-in-out;
+  }
+  img,.slide-animal,p{
+    transition: all 1.1s ease-in-out;
+  }
+  transition: all 1.1s ease-in-out;
+  overflow: hidden;
 }
 

@@ -67,6 +67,7 @@
   max-height: 301px;
   overflow: hidden;
 }
+
 .testimonials__carousel_controller{
   width: 45%;
   height: 8px;
@@ -78,6 +79,10 @@
     height: 6px;
     background-color: $colored-title;
     border-radius: 5px;
+    &:hover{
+      background-color: $color-secondary;
+      transition: all 0.5s;
+    }
   }
 }
 

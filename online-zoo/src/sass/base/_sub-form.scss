@@ -14,7 +14,17 @@
     width: 129px;
     border-radius: 5px;
     background: #fff;
-    color: #333B41;
     text-transform: initial;
   }
+  .submit-email{
+    &:valid~.submit-button {
+      border: 1px solid $color-secondary;
+      color: $color-secondary;
+    }
+    &:invalid~.submit-button {
+      color: $color-mistake;
+      border: 1px solid $color-mistake;
+    }
+  }
 }
+

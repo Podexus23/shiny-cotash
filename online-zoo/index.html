@@ -18,6 +18,7 @@
       <header class="header">
         <div class="header__wrapper wrapper">
           <a class="header__logo logo" href="#"></a>
+          <h1 class="hidden">PetStory Online</h1>
           <nav class="header__navigation">
             <ul class="navigation__links">
               <li><a href="#" class="navigation__link active">About</a></li>
@@ -53,9 +54,9 @@
       </header>
       <div class="promo-cover wrapper">
         <div class="promo-cover__back-circle"></div>
-        <h1 class="promo-cover__title">
+        <h2 class="promo-cover__title">
           Watch your <span class="colored">favorite</span> animal online
-        </h1>
+        </h2>
         <a
           class="cover-title__button"
           href="./src/sass/pages/cam_panda_online.html"
@@ -350,61 +351,85 @@
       <div class="footer-wrapper wrapper">
         <div class="footer__left-side">
           <a href="#" class="footer__logo logo"></a>
-          <button class="footer__button button squared">
-            donate for volunteers
-          </button>
+          <a class="footer__button" href="./src/sass/pages/donate.html"
+            ><button class="button squared">donate for volunteers</button></a
+          >
+
           <ul class="footer__socials">
             <li>
-              <div class="icon-wrapper">
-                <img src="./src/img/socials/facebook.svg" alt="" />
-              </div>
-              <a href="" class="footer__link link">Facebook</a>
+              <a href="https://www.facebook.com/" class="footer__link link">
+                <div class="icon-wrapper">
+                  <img src="./src/img/socials/facebook.svg" alt="" />
+                </div>
+                Facebook</a
+              >
             </li>
             <li>
-              <div class="icon-wrapper">
-                <img src="./src/img/socials/twitter.svg" alt="" />
-              </div>
-              <a href="" class="footer__link link">Twitter</a>
+              <a href="https://twitter.com/" class="footer__link link"
+                ><div class="icon-wrapper">
+                  <img src="./src/img/socials/twitter.svg" alt="" />
+                </div>
+                Twitter</a
+              >
             </li>
             <li>
-              <div class="icon-wrapper">
-                <img src="./src/img/socials/instagramm.svg" alt="" />
-              </div>
-              <a href="" class="footer__link link">Instagram</a>
+              <a href="https://www.instagram.com/" class="footer__link link"
+                ><div class="icon-wrapper">
+                  <img src="./src/img/socials/instagramm.svg" alt="" />
+                </div>
+                Instagram</a
+              >
             </li>
             <li>
-              <div class="icon-wrapper">
-                <img src="./src/img/socials/youtube.svg" alt="" />
-              </div>
-              <a href="" class="footer__link link">YouTube</a>
+              <a href="https://www.youtube.com/" class="footer__link link"
+                ><div class="icon-wrapper">
+                  <img src="./src/img/socials/youtube.svg" alt="" />
+                </div>
+                YouTube</a
+              >
             </li>
           </ul>
         </div>
         <div class="footer__navigation navigation">
           <ul class="navigation__links">
-            <li><a href="#" class="navigation__link">About</a></li>
-            <li><a href="#" class="navigation__link">Map</a></li>
-            <li><a href="#" class="navigation__link">Zoos</a></li>
-            <li><a href="#" class="navigation__link">Contact us</a></li>
+            <li><a href="#" class="navigation__link active">About</a></li>
+            <li>
+              <a href="./src/sass/pages/map.html" class="navigation__link"
+                >Map</a
+              >
+            </li>
+            <li>
+              <a
+                href="./src/sass/pages/cam_panda_online.html"
+                class="navigation__link"
+                >Zoos</a
+              >
+            </li>
+            <li>
+              <a href="./src/sass/pages/404_page.html" class="navigation__link"
+                >Contact us</a
+              >
+            </li>
           </ul>
         </div>
         <div class="footer__right-side">
           <div class="footer__subscription">
             <h2 class="subscription__title subtitle">Subscribe to our news</h2>
-            <div class="subscription__submit-form">
+            <form class="subscription__submit-form" action="">
               <input
                 type="email"
-                name=""
-                id=""
+                name="email"
+                id="email"
                 placeholder="Enter your email"
                 class="submit-email"
+                required
               />
               <input
-                type="button"
+                type="submit"
                 value="Submit"
                 class="submit-button button squared"
               />
-            </div>
+            </form>
           </div>
           <div class="footer__copyrights">
             <p class="footer__designed">Designed by Alisa Samborskaya</p>

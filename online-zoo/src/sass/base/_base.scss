@@ -1,19 +1,29 @@
 html {
   font-size: 10px;
 }
-
 body{
   @extend %first-font;
   @include font($size: 1.6rem, $height: 2.2rem);
 }
-
-h1{
-  @include font($size: 10.65rem, $height: 8.0rem, $weight: 700);
+.hidden{
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+  clip-path: inset(0px 0px 99.9% 99.9%);
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  border: 0;
 }
+
 
 h2 {
   @include font($size: 4.8rem, $height: 5.8rem, $weight: 400);
   margin: 0;
+}
+.promo-cover__title {
+  @include font($size: 10.65rem, $height: 8.0rem, $weight: 700);
 }
 
 h3 {
