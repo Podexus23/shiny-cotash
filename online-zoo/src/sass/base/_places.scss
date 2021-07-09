@@ -1,0 +1,60 @@
+//names
+.map__places-name {
+  @include font($size: 1.5rem, $height: 1.8rem);
+  position: absolute;
+  z-index: -99;
+}
+
+.map-wrapper{
+  .name-1{
+    top: 47%;
+    left: 13.5%;
+  }
+  .name-2{
+    top: 52.5%;
+    left: 14.5%;
+  }
+  .name-3{
+    top: 55.5%;
+    left: 25%;
+  }
+  .name-4{
+    bottom: 30%;
+    left: 52%;
+  }
+  .name-5{
+    bottom: 45.5%;
+    right: 25%;
+  }
+}
+//points
+.map__places-point {
+  position: absolute;
+  z-index: -100;
+  // @extend %transition;
+  &:hover{
+    filter: invert(53%) sepia(96%) saturate(835%) hue-rotate(351deg) brightness(103%) contrast(99%);
+  }
+}
+.map-wrapper{
+  .point-1{
+    top: 50%;
+    left: 12.5%;
+  }
+  .point-2{
+    top: 53%;
+    left: 23.3%;
+  }
+  .point-3{
+    bottom: 30%;
+    left: 50.3%;
+  }
+  .point-4{
+    bottom: 42%;
+    right: 19.3%;
+  }
+  .point-5{
+    bottom: 48.5%;
+    right: 18.5%;
+  }
+}

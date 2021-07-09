@@ -1,0 +1,16 @@
+.map{
+  background-color: $color-map;
+  height: 938px;
+  padding: 100px 0 120px 0;
+}
+.map-wrapper{
+  max-width: 1085px;
+  margin: auto;
+  position: relative;
+  z-index: 0;
+  height: 100%;
+  background-image: url(../img/background/map.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+

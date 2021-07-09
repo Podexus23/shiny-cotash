@@ -690,6 +690,65 @@ a {
   border: 1px solid #D31414;
 }
 
+.map__places-name {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.8rem;
+  position: absolute;
+  z-index: -99;
+}
+
+.map-wrapper .name-1 {
+  top: 47%;
+  left: 13.5%;
+}
+.map-wrapper .name-2 {
+  top: 52.5%;
+  left: 14.5%;
+}
+.map-wrapper .name-3 {
+  top: 55.5%;
+  left: 25%;
+}
+.map-wrapper .name-4 {
+  bottom: 30%;
+  left: 52%;
+}
+.map-wrapper .name-5 {
+  bottom: 45.5%;
+  right: 25%;
+}
+
+.map__places-point {
+  position: absolute;
+  z-index: -100;
+}
+.map__places-point:hover {
+  filter: invert(53%) sepia(96%) saturate(835%) hue-rotate(351deg) brightness(103%) contrast(99%);
+}
+
+.map-wrapper .point-1 {
+  top: 50%;
+  left: 12.5%;
+}
+.map-wrapper .point-2 {
+  top: 53%;
+  left: 23.3%;
+}
+.map-wrapper .point-3 {
+  bottom: 30%;
+  left: 50.3%;
+}
+.map-wrapper .point-4 {
+  bottom: 42%;
+  right: 19.3%;
+}
+.map-wrapper .point-5 {
+  bottom: 48.5%;
+  right: 18.5%;
+}
+
 .header {
   background: #000000;
   padding: 14px 0;
@@ -1068,6 +1127,23 @@ a {
 .testimonials__carousel_controller .controller-joystick:hover {
   background-color: #4B9200;
   transition: all 0.5s;
+}
+
+.map {
+  background-color: #EAF7FE;
+  height: 938px;
+  padding: 100px 0 120px 0;
+}
+
+.map-wrapper {
+  max-width: 1085px;
+  margin: auto;
+  position: relative;
+  z-index: 0;
+  height: 100%;
+  background-image: url(../img/background/map.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 /*# sourceMappingURL=style.css.map */

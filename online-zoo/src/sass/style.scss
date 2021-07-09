@@ -11,6 +11,7 @@
 @import "./base/buttons";
 @import "./base/slide";
 @import "./base/sub-form";
+@import "./base/places";
 
 //layouts
 @import "./layout/header";
@@ -26,3 +27,6 @@
 @import "./components/animal-slider";
 @import "./components/feed-a-friend";
 @import "./components/testimonials";
+
+//pages
+@import "./pages/map";
