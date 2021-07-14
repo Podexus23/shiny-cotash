@@ -423,7 +423,7 @@ body {
   font-family: "Roboto", Verdana, sans-serif;
 }
 
-.navigation__link, .footer__socials .link, .map__places-point {
+.navigation__link, .footer__socials .link, .map__places-point, .button-map, .pop-up-button {
   transition: all 0.3s ease-out;
 }
 
@@ -609,6 +609,29 @@ a {
   border-radius: 5px;
 }
 
+.pop-up-button {
+  margin-top: 15px;
+  background: #F1F3F2;
+  border-radius: 5px;
+  color: #4B9200;
+  border: none;
+  padding: 4px 10px;
+}
+.pop-up-button:hover {
+  color: #FE9013;
+}
+
+.button-map {
+  background: #FFFFFF;
+  border-radius: 5px;
+  border: 2px solid rgba(51, 59, 65, 0);
+  width: 54px;
+  height: 54px;
+}
+.button-map:hover {
+  border: 2px solid #333b41;
+}
+
 .animal-slider__slide {
   display: flex;
   flex-direction: column;
@@ -752,6 +775,61 @@ a {
 .map-wrapper .point-5 {
   bottom: 49.5%;
   right: 18.5%;
+}
+
+.map__animal-icon {
+  background-repeat: no-repeat;
+  position: absolute;
+}
+.map__animal-icon img {
+  cursor: pointer;
+}
+.map__animal-icon img:hover ~ .animal-icon__description {
+  display: flex;
+}
+
+.animal-icon__description {
+  display: none;
+  background-image: url(../img/map/pop_up.svg);
+  width: 160px;
+  height: 117px;
+  z-index: 2;
+  flex-direction: column;
+  padding: 16px 10px 11px;
+  position: absolute;
+  top: 100%;
+  right: -170%;
+}
+
+.map-wrapper .icon-1 {
+  top: 49%;
+  left: 8.5%;
+}
+.map-wrapper .icon-2 {
+  top: 56%;
+  left: 12.5%;
+}
+.map-wrapper .icon-3 {
+  top: 58%;
+  left: 22.5%;
+}
+.map-wrapper .icon-3 .animal-icon__description {
+  right: -100%;
+}
+.map-wrapper .icon-4 {
+  bottom: 24%;
+  left: 50.5%;
+}
+.map-wrapper .icon-5 {
+  top: 45%;
+  right: 20.7%;
+}
+.map-wrapper .icon-5 .animal-icon__description {
+  left: -100%;
+}
+.map-wrapper .icon-6 {
+  top: 54%;
+  right: 21%;
 }
 
 .header {
@@ -1149,6 +1227,25 @@ a {
   background-image: url(../img/background/map.png);
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.map__plus-minus {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 90%;
+  bottom: 5%;
+}
+.map__plus-minus .map-plus {
+  background-image: url("../img/map/plus.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 10px;
+}
+.map__plus-minus .map-minus {
+  background-image: url("../img/map/minus.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /*# sourceMappingURL=style.css.map */

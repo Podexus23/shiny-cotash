@@ -14,3 +14,18 @@
   background-size: contain;
 }
 
+.map__plus-minus{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 90%;
+  bottom: 5%;
+  .map-plus{
+    @include background-image($url:"../img/map/plus.svg");
+    margin-bottom: 10px;
+  }
+  .map-minus {
+    @include background-image($url:"../img/map/minus.svg");
+  }
+}
+

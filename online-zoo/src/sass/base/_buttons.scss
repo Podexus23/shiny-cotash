@@ -21,5 +21,30 @@
 
 .squared{
   border-radius: 5px;
-  @extend %squared-gradient-transition
+  @extend %squared-gradient-transition;
+}
+
+.pop-up-button{
+  margin-top: 15px;
+  background: #F1F3F2;
+  border-radius: 5px;
+  color: $color-secondary;
+  border: none;
+  padding: 4px 10px;
+  @extend %transition;
+  &:hover{
+    color: $colored-title;
+  }
+}
+
+.button-map{
+  background: #FFFFFF;
+  border-radius: 5px;
+  border: 2px solid rgba($color: $color-text, $alpha: 0.0);
+  width: 54px;
+  height: 54px;
+  @extend %transition;
+  &:hover{
+    border: 2px solid rgba($color: $color-text, $alpha: 1.0);
+  }
 }
