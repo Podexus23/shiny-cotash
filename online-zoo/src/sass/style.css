@@ -832,6 +832,25 @@ a {
   right: 21%;
 }
 
+.map-wrapper .icon-1:hover ~ .point-1 {
+  background-image: url(../img/icons/map-point-hovered.svg);
+}
+.map-wrapper .icon-2:hover ~ .point-1 {
+  background-image: url(../img/icons/map-point-hovered.svg);
+}
+.map-wrapper .icon-3:hover ~ .point-2 {
+  background-image: url(../img/icons/map-point-hovered.svg);
+}
+.map-wrapper .icon-4:hover ~ .point-3 {
+  background-image: url(../img/icons/map-point-hovered.svg);
+}
+.map-wrapper .icon-5:hover ~ .point-5 {
+  background-image: url(../img/icons/map-point-hovered.svg);
+}
+.map-wrapper .icon-6:hover ~ .point-4 {
+  background-image: url(../img/icons/map-point-hovered.svg);
+}
+
 .header {
   background: #000000;
   padding: 14px 0;

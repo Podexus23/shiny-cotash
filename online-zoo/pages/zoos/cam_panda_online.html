@@ -10,8 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../src/sass/style.css" />
-    <title>Map</title>
+    <link rel="stylesheet" href="../../src/sass/style.css" />
+    <title>Panda</title>
   </head>
   <body>
     <header class="header">
@@ -24,10 +24,12 @@
               <a href="../index.html" class="navigation__link">About</a>
             </li>
             <li>
-              <a href="#" class="navigation__link active">Map</a>
+              <a href="#" class="navigation__link">Map</a>
             </li>
             <li>
-              <a href="./zoos/cam_panda_online.html" class="navigation__link"
+              <a
+                href="./zoos/cam_panda_online.html"
+                class="navigation__link active"
                 >Zoos</a
               >
             </li>
@@ -47,71 +49,10 @@
         </nav>
       </div>
     </header>
-    <section class="map">
-      <div class="map-wrapper">
-        <span class="map__places-name name-1">United States</span>
-        <span class="map__places-name name-2">Los Angeles</span>
-        <span class="map__places-name name-3">Florida</span>
-        <span class="map__places-name name-4">Congo</span>
-        <span class="map__places-name name-5">China</span>
-        <span class="map__animal-icon icon-1">
-          <img src="../src/img/map/eagle1.png" alt="" />
-          <div class="animal-icon__description">
-            <p>Eagle</p>
-            <p>Los Angeles, USA</p>
-            <button class="pop-up-button">Watch online</button>
-          </div>
-        </span>
-        <span class="map__animal-icon icon-2">
-          <img src="../src/img/map/eagle2.png" alt="" />
-          <div class="animal-icon__description">
-            <p>Eagle</p>
-            <p>Florida, USA</p>
-            <button class="pop-up-button">Watch online</button>
-          </div>
-        </span>
-        <span class="map__animal-icon icon-3">
-          <img src="../src/img/map/lonely-crocodile 1.png" alt="" />
-          <div class="animal-icon__description">
-            <p>Alligators</p>
-            <p>Los Angeles, USA</p>
-            <button class="pop-up-button">Watch online</button>
-          </div>
-        </span>
-        <span class="map__animal-icon icon-4">
-          <img src="../src/img/map/gorillas.png" alt="" />
-          <div class="animal-icon__description">
-            <p>Gorilla</p>
-            <p>Congo, Africa</p>
-            <button class="pop-up-button">Watch online</button>
-          </div>
-        </span>
-        <span class="map__animal-icon icon-5">
-          <img src="../src/img/map/panda.png" alt="" />
-          <div class="animal-icon__description">
-            <p>Panda</p>
-            <p>China</p>
-            <button class="pop-up-button">Watch online</button>
-          </div>
-        </span>
-        <span class="map__animal-icon icon-6">
-          <img src="../src/img/map/pandas.png" alt="" />
-          <div class="animal-icon__description">
-            <p>Pandas</p>
-            <p>China</p>
-            <button class="pop-up-button">Watch online</button>
-          </div>
-        </span>
-        <span class="map__places-point point-1"></span>
-        <span class="map__places-point point-2"></span>
-        <span class="map__places-point point-3"></span>
-        <span class="map__places-point point-4"></span>
-        <span class="map__places-point point-5"></span>
-      </div>
-      <div class="map__plus-minus">
-        <button class="button-map map-plus"></button>
-        <button class="button-map map-minus"></button>
-      </div>
+    <section class="main-container">
+      <aside class="zoo-aside"></aside>
+      <div class="animal-camera"></div>
+      <div class="animal-information"></div>
     </section>
     <footer class="footer">
       <div class="footer-wrapper wrapper">
@@ -125,7 +66,7 @@
             <li>
               <a href="https://www.facebook.com/" class="footer__link link">
                 <div class="icon-wrapper">
-                  <img src="../src/img/socials/facebook.svg" alt="" />
+                  <img src="../../src/img/socials/facebook.svg" alt="" />
                 </div>
                 Facebook</a
               >
@@ -133,7 +74,7 @@
             <li>
               <a href="https://twitter.com/" class="footer__link link"
                 ><div class="icon-wrapper">
-                  <img src="../src/img/socials/twitter.svg" alt="" />
+                  <img src="../../src/img/socials/twitter.svg" alt="" />
                 </div>
                 Twitter</a
               >
@@ -141,7 +82,7 @@
             <li>
               <a href="https://www.instagram.com/" class="footer__link link"
                 ><div class="icon-wrapper">
-                  <img src="../src/img/socials/instagramm.svg" alt="" />
+                  <img src="../../src/img/socials/instagramm.svg" alt="" />
                 </div>
                 Instagram</a
               >
@@ -149,7 +90,7 @@
             <li>
               <a href="https://www.youtube.com/" class="footer__link link"
                 ><div class="icon-wrapper">
-                  <img src="../src/img/socials/youtube.svg" alt="" />
+                  <img src="../../src/img/socials/youtube.svg" alt="" />
                 </div>
                 YouTube</a
               >
@@ -160,10 +101,12 @@
           <ul class="navigation__links">
             <li><a href="../index.html" class="navigation__link">About</a></li>
             <li>
-              <a href="./pages/map.html" class="navigation__link active">Map</a>
+              <a href="./pages/map.html" class="navigation__link">Map</a>
             </li>
             <li>
-              <a href="./zoos/cam_panda_online.html" class="navigation__link"
+              <a
+                href="./zoos/cam_panda_online.html"
+                class="navigation__link active"
                 >Zoos</a
               >
             </li>
