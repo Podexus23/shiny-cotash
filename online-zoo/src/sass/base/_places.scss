@@ -29,32 +29,44 @@
 }
 //points
 .map__places-point {
+  background-image: url(../img/icons/map-point.svg);
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 33px;
   position: absolute;
   z-index: -100;
-  // @extend %transition;
+  cursor: pointer;
+  @extend %transition;
   &:hover{
-    filter: invert(53%) sepia(96%) saturate(835%) hue-rotate(351deg) brightness(103%) contrast(99%);
+    background-image: url(../img/icons/map-point-hovered.svg);
+    
   }
 }
 .map-wrapper{
   .point-1{
-    top: 50%;
+    top: 49%;
     left: 12.5%;
   }
   .point-2{
-    top: 53%;
+    top: 52%;
     left: 23.3%;
   }
   .point-3{
-    bottom: 30%;
+    bottom: 31%;
     left: 50.3%;
   }
   .point-4{
-    bottom: 42%;
+    bottom: 43%;
     right: 19.3%;
   }
   .point-5{
-    bottom: 48.5%;
+    bottom: 49.5%;
     right: 18.5%;
+  }
+}
+//animal-icons
+.map__animal-icon{
+  .icon-1{
+    background-image: url(../img/map/eagle1.png);
   }
 }

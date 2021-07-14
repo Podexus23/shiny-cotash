@@ -423,7 +423,7 @@ body {
   font-family: "Roboto", Verdana, sans-serif;
 }
 
-.navigation__link, .footer__socials .link {
+.navigation__link, .footer__socials .link, .map__places-point {
   transition: all 0.3s ease-out;
 }
 
@@ -721,31 +721,36 @@ a {
 }
 
 .map__places-point {
+  background-image: url(../img/icons/map-point.svg);
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 33px;
   position: absolute;
   z-index: -100;
+  cursor: pointer;
 }
 .map__places-point:hover {
-  filter: invert(53%) sepia(96%) saturate(835%) hue-rotate(351deg) brightness(103%) contrast(99%);
+  background-image: url(../img/icons/map-point-hovered.svg);
 }
 
 .map-wrapper .point-1 {
-  top: 50%;
+  top: 49%;
   left: 12.5%;
 }
 .map-wrapper .point-2 {
-  top: 53%;
+  top: 52%;
   left: 23.3%;
 }
 .map-wrapper .point-3 {
-  bottom: 30%;
+  bottom: 31%;
   left: 50.3%;
 }
 .map-wrapper .point-4 {
-  bottom: 42%;
+  bottom: 43%;
   right: 19.3%;
 }
 .map-wrapper .point-5 {
-  bottom: 48.5%;
+  bottom: 49.5%;
   right: 18.5%;
 }
 
