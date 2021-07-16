@@ -854,8 +854,10 @@ a {
 .zoos__aside {
   position: sticky;
   width: 100px;
-  top: 72px;
+  height: fit-content;
+  top: 30px;
   left: 30px;
+  margin-top: 62px;
   margin-bottom: 50px;
   padding: 10px;
   display: flex;
@@ -963,7 +965,7 @@ a {
 
 .wrapper {
   max-width: 1160px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .layout-3-column {
@@ -1061,6 +1063,12 @@ a {
   align-self: flex-end;
   padding-top: 60%;
   color: #fff;
+}
+
+.footer-donate {
+  padding-top: 276px;
+  padding-bottom: 60px;
+  text-align: center;
 }
 
 .header__navigation {
@@ -1365,8 +1373,48 @@ a {
 }
 
 .zoos__main-container {
-  height: 1000px;
   margin-top: 40px;
+  display: flex;
+  position: relative;
+  left: -55px;
+}
+
+.zoos__main-camera {
+  padding-top: 10px;
+  padding-bottom: 80px;
+}
+.zoos__main-camera iframe {
+  width: 100%;
+  height: 652px;
+}
+
+.zoos__camera-slider {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 140px;
+}
+.zoos__camera-slider iframe {
+  height: 210px;
+  width: 23%;
+}
+.zoos__camera-slider .left {
+  position: absolute;
+  left: -82px;
+  transform: rotate(180deg);
+}
+.zoos__camera-slider .right {
+  position: absolute;
+  right: -82px;
+}
+
+.footer-donate {
+  background-image: url("../img/background/zoos-panda.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=style.css.map */

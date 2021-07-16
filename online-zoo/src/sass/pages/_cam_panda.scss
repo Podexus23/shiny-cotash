@@ -1,4 +1,43 @@
 .zoos__main-container{
-  height: 1000px;
   margin-top: 40px;
+  display: flex;
+      position: relative;
+      left: -55px;
+}
+
+.zoos__main-camera{
+  padding-top: 10px;
+  padding-bottom: 80px;
+  iframe{
+    width: 100%;
+    height: 652px;
+  }
+  
+}
+//zoos slider
+.zoos__camera-slider{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 140px;
+  iframe{
+    height: 210px;
+    width: 23%;
+  }
+  .left{
+    position: absolute;
+    left: -82px;
+    transform: rotate(180deg);
+  }
+  .right{
+    position: absolute;
+    right: -82px;
+  }
+}
+
+.footer-donate{
+  @include background-image($url:"../img/background/zoos-panda.png");
+  background-size: cover;
 }
