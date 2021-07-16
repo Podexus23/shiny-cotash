@@ -2,6 +2,7 @@
   background-color: $color-map;
   height: 938px;
   padding: 100px 0 120px 0;
+  position: relative;
 }
 .map-wrapper{
   max-width: 1085px;
@@ -17,7 +18,7 @@
 .map__plus-minus{
   display: flex;
   flex-direction: column;
-  position: relative;
+  position: absolute;
   left: 90%;
   bottom: 5%;
   .map-plus{

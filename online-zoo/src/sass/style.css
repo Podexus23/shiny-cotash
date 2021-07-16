@@ -423,7 +423,7 @@ body {
   font-family: "Roboto", Verdana, sans-serif;
 }
 
-.navigation__link, .footer__socials .link, .map__places-point, .button-map, .pop-up-button {
+.navigation__link, .footer__socials .link, .aside__link, .map__places-point, .button-map, .pop-up-button {
   transition: all 0.3s ease-out;
 }
 
@@ -851,6 +851,102 @@ a {
   background-image: url(../img/icons/map-point-hovered.svg);
 }
 
+.zoos__aside {
+  position: sticky;
+  width: 100px;
+  top: 72px;
+  left: 30px;
+  margin-bottom: 50px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+  border-radius: 5px;
+}
+
+.aside__link {
+  height: 80px;
+  width: 80px;
+  margin: 5px 0;
+  border-radius: 50%;
+  border: 2px solid #FE9013;
+  background-color: #FFFFFF;
+}
+.aside__link:hover {
+  border: 2px solid #4B9200;
+}
+
+.zoos__aside .link-number-1 {
+  background-image: url("../img/aside/lil_gorilla_icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.zoos__aside .link-number-1:hover {
+  background-image: url("../img/aside/lil_gorilla_icon-hov.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.zoos__aside .link-number-2 {
+  background-image: url("../img/aside/lil_alligator_icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.zoos__aside .link-number-2:hover {
+  background-image: url("../img/aside/lil_alligator_icon-hov.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.zoos__aside .link-number-3 {
+  background-image: url("../img/aside/lil_panda_icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.zoos__aside .link-number-3:hover {
+  background-image: url("../img/aside/lil_panda_icon-hov.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.zoos__aside .link-number-4 {
+  background-image: url("../img/aside/lil_eagle_icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.zoos__aside .link-number-4:hover {
+  background-image: url("../img/aside/lil_eagle_icon-hov.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.zoos__aside .link-number-5 {
+  background-image: url("../img/aside/lil_sloth_icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.zoos__aside .link-number-5:hover {
+  background-image: url("../img/aside/lil_sloth_icon-hov.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.zoos__aside .link-number-6 {
+  background-image: url("../img/aside/lil_penguin_icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.zoos__aside .link-number-6:hover {
+  background-image: url("../img/aside/lil_penguin_icon-hov.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.zoos__aside .link-number-7 {
+  background-image: url("../img/aside/arrow_down.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.zoos__aside .link-number-7:hover {
+  background-image: url("../img/aside/arrow_down-hov.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .header {
   background: #000000;
   padding: 14px 0;
@@ -1235,6 +1331,7 @@ a {
   background-color: #EAF7FE;
   height: 938px;
   padding: 100px 0 120px 0;
+  position: relative;
 }
 
 .map-wrapper {
@@ -1251,7 +1348,7 @@ a {
 .map__plus-minus {
   display: flex;
   flex-direction: column;
-  position: relative;
+  position: absolute;
   left: 90%;
   bottom: 5%;
 }
@@ -1265,6 +1362,11 @@ a {
   background-image: url("../img/map/minus.svg");
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.zoos__main-container {
+  height: 1000px;
+  margin-top: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */

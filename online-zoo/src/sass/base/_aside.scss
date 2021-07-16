@@ -1,0 +1,75 @@
+.zoos__aside{
+  position: sticky;
+  width: 100px;
+  top: 72px;
+  left: 30px;
+  margin-bottom: 50px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background: $background-main-gradient;
+  border-radius: 5px;
+}
+
+.aside__link{
+  height: 80px;
+  width: 80px;
+  margin: 5px 0;
+  border-radius: 50%;
+  border: 2px solid $colored-title;
+  background-color: $color-button-text;
+  @extend %transition;
+  &:hover{
+    border: 2px solid $color-secondary;
+  }
+}
+//link backgrounds
+.zoos__aside{
+  .link-number-1{
+    @include background-image ($url: "../img/aside/lil_gorilla_icon.svg");
+    &:hover{
+      @include background-image($url: "../img/aside/lil_gorilla_icon-hov.svg");
+    }
+  }
+  .link-number-2 {
+    @include background-image ($url: "../img/aside/lil_alligator_icon.svg");
+
+    &:hover {
+      @include background-image($url: "../img/aside/lil_alligator_icon-hov.svg");
+    }
+  }
+  .link-number-3 {
+    @include background-image ($url: "../img/aside/lil_panda_icon.svg");
+
+    &:hover {
+      @include background-image($url: "../img/aside/lil_panda_icon-hov.svg");
+    }
+  }
+  .link-number-4 {
+    @include background-image ($url: "../img/aside/lil_eagle_icon.svg");
+
+    &:hover {
+      @include background-image($url: "../img/aside/lil_eagle_icon-hov.svg");
+    }
+  }
+  .link-number-5 {
+    @include background-image ($url: "../img/aside/lil_sloth_icon.svg");
+
+    &:hover {
+      @include background-image($url: "../img/aside/lil_sloth_icon-hov.svg");
+    }
+  }
+  .link-number-6 {
+    @include background-image ($url: "../img/aside/lil_penguin_icon.svg");
+    &:hover {
+      @include background-image($url: "../img/aside/lil_penguin_icon-hov.svg");
+    }
+  }
+  .link-number-7 {
+    @include background-image ($url: "../img/aside/arrow_down.svg");
+
+    &:hover {
+      @include background-image($url: "../img/aside/arrow_down-hov.svg");
+    }
+  }
+}
