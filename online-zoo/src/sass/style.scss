@@ -20,6 +20,7 @@
 @import "./layout/layout-3-column";
 @import "./layout/layout-4-row";
 @import "./layout/footer";
+@import "./layout/zoos-pages";
 
 //components
 @import "./components/navigation";
@@ -31,5 +32,4 @@
 
 //pages
 @import "./pages/map";
-//zoos
-@import "./pages/cam_panda";
+@import "./pages/cam-panda";

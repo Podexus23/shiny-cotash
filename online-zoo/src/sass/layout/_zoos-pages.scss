@@ -1,0 +1,130 @@
+.zoos__main-container{
+  margin-top: 40px;
+  display: flex;
+  position: relative;
+  left: -55px;
+}
+
+.zoos__main-camera{
+  padding-top: 10px;
+  padding-bottom: 80px;
+  iframe{
+    width: 100%;
+    height: 652px;
+  }
+}
+//zoos slider
+.zoos__camera-slider{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 140px;
+  .camera-slider__slide {
+    position: relative;
+    height: 210px;
+    width: 23%;
+  }
+  
+  iframe{
+    height: 210px;
+    width: 100%;
+  }
+  .slide-live {
+    position: absolute;
+    z-index: 1;
+    cursor: default;
+    top: 10%;
+    left: 5%;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    width: 55px;
+    height: 24px;
+    text-align: center;
+  }
+  .slide__plug{
+    background:rgba(254, 189, 171, 0.74);
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+  }
+  .left{
+    position: absolute;
+    left: -82px;
+    transform: rotate(180deg);
+  }
+  .right{
+    position: absolute;
+    right: -82px;
+  }
+}
+
+.footer-donate{
+  background-size: cover;
+}
+
+.animal-info__title{
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+.zoos__main-containter-wrapper{
+  padding-bottom: 180px;
+}
+
+.zoos__animal-info{
+  .colored-text{
+    color: $color-secondary;
+  }
+}
+
+.animal-info__description{
+  display: flex;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #76747474;
+}
+
+.description__block{
+  padding-left: 70px;
+  display: flex;
+  color: #ABABAB;
+  flex-wrap: wrap;
+}
+
+.animal-info__base {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  div{
+    padding-bottom: 10px;
+  }
+  .base-name{
+    padding-right: 10px;
+  }
+  p{
+    display: inline;
+  }
+}
+
+.general-block{
+  padding-bottom: 10px;
+  .general-name{
+    padding-bottom: 10px;
+  }
+  p{
+    padding-bottom: 20px;
+  }
+}
+
+.roll-up_button{
+  width: 129px;
+  height: 42px;
+  background: #F1F3F2;
+  border: 1px solid $color-text;
+  box-sizing: border-box;
+  border-radius: 5px;
+}

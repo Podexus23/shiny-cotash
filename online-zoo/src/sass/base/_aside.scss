@@ -33,33 +33,49 @@
       @include background-image($url: "../img/aside/lil_gorilla_icon-hov.svg");
     }
   }
+  .link-number-1_active {
+   @include background-image($url: "../img/aside/lil_gorilla_icon-hov.svg");
+    border: 2px solid $color-secondary;
+  }
   .link-number-2 {
     @include background-image ($url: "../img/aside/lil_alligator_icon.svg");
-
     &:hover {
       @include background-image($url: "../img/aside/lil_alligator_icon-hov.svg");
     }
   }
+  .link-number-2_active {
+    @include background-image($url: "../img/aside/lil_alligator_icon-hov.svg");
+    border: 2px solid $color-secondary;
+  }
   .link-number-3 {
     @include background-image ($url: "../img/aside/lil_panda_icon.svg");
-
     &:hover {
       @include background-image($url: "../img/aside/lil_panda_icon-hov.svg");
     }
   }
+  .link-number-3_active {
+    @include background-image($url: "../img/aside/lil_panda_icon-hov.svg");
+    border: 2px solid $color-secondary;
+  }
   .link-number-4 {
     @include background-image ($url: "../img/aside/lil_eagle_icon.svg");
-
     &:hover {
       @include background-image($url: "../img/aside/lil_eagle_icon-hov.svg");
     }
   }
+  .link-number-4_active {
+    @include background-image($url: "../img/aside/lil_eagle_icon-hov.svg");
+    border: 2px solid $color-secondary;
+  }
   .link-number-5 {
     @include background-image ($url: "../img/aside/lil_sloth_icon.svg");
-
     &:hover {
       @include background-image($url: "../img/aside/lil_sloth_icon-hov.svg");
     }
+  }
+  .link-number-5_active {
+    @include background-image($url: "../img/aside/lil_sloth_icon-hov.svg");
+    border: 2px solid $color-secondary;
   }
   .link-number-6 {
     @include background-image ($url: "../img/aside/lil_penguin_icon.svg");
@@ -67,11 +83,18 @@
       @include background-image($url: "../img/aside/lil_penguin_icon-hov.svg");
     }
   }
+  .link-number-6_active {
+    @include background-image($url: "../img/aside/lil_penguin_icon-hov.svg");
+    border: 2px solid $color-secondary;
+  }
   .link-number-7 {
     @include background-image ($url: "../img/aside/arrow_down.svg");
-
     &:hover {
       @include background-image($url: "../img/aside/arrow_down-hov.svg");
     }
+  }
+  .link-number-7_active {
+    @include background-image($url: "../img/aside/arrow_down-hov.svg");
+    border: 2px solid $color-secondary;
   }
 }
