@@ -1239,6 +1239,16 @@ a {
 .general-block p {
   padding-bottom: 20px;
 }
+.general-block ul {
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+.general-block .before-ul {
+  padding: 0;
+}
+.general-block li {
+  list-style: disc;
+}
 
 .roll-up_button {
   width: 129px;
@@ -1552,6 +1562,12 @@ a {
 
 .footer-donate_panda {
   background-image: url("../img/background/zoos-panda.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer-donate_gorilla {
+  background-image: url("../img/background/gorilla_bg.png");
   background-repeat: no-repeat;
   background-position: center;
 }
