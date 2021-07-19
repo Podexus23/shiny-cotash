@@ -1127,6 +1127,12 @@ a {
   left: -55px;
 }
 
+.main-wrapper {
+  background: url(../img/background/leave_foto_grad.png), url(../img/background/strelitzia.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 100% 102%, bottom left;
+}
+
 .zoos__main-camera {
   padding-top: 10px;
   padding-bottom: 80px;
@@ -1568,6 +1574,12 @@ a {
 
 .footer-donate_gorilla {
   background-image: url("../img/background/gorilla_bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer-donate_gorilla {
+  background-image: url("../img/background/eagle_bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }

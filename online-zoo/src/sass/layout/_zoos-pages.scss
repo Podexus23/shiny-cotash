@@ -4,7 +4,14 @@
   position: relative;
   left: -55px;
 }
-
+.main-wrapper{
+  background: url(../img/background/leave_foto_grad.png),
+  url(../img/background/strelitzia.png);
+  background-repeat: no-repeat,
+  no-repeat;
+  background-position: 100% 102%,
+  bottom left;
+}
 .zoos__main-camera{
   padding-top: 10px;
   padding-bottom: 80px;
