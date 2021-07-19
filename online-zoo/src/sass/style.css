@@ -1578,8 +1578,14 @@ a {
   background-position: center;
 }
 
-.footer-donate_gorilla {
+.footer-donate_eagle {
   background-image: url("../img/background/eagle_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer-donate_alligator {
+  background-image: url("../img/background/alligator_bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
