@@ -1,4 +1,109 @@
 .donate-main{
   background: $background-main-gradient;
-  height: 1482px;
+  padding-bottom: 180px;
+}
+.header__bg{
+  width: 100%;
+  height: 390px;
+  @include background-image ($url:"../img/background/panda_bg.png", $repeat: no-repeat, $position: center);
+  background-size: cover;
+}
+.donate-main-title{
+  color: $color-button-text;
+  margin: 0;
+  padding: 40px 0 10px;
+}
+
+.donate-main-text{
+  color: $color-button-text;
+}
+
+.donate-main-info{
+  color: $colored-title;
+  padding: 40px 0 60px;
+  margin: 0;
+}
+.peek-feed-block{
+  background: rgba(255, 255, 255, 0.52);
+  border-radius: 20px;
+  backdrop-filter: blur(4px);
+  .peek-feed__title{
+    color: $colored-title;
+    text-align: center;
+    padding: 40px 0 20px;
+  }
+  .subtitle{
+    padding-bottom: 60px;
+  }
+  .peek-feed__scheme{
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+    padding: 0 220px 48px;
+    
+  }
+}
+
+.peek-feed__scheme-left{
+  display: flex;
+  align-items: center;
+  .scheme-days{
+    position: relative;
+    top: 10%;
+  }
+  .x_icon{
+    margin-left: 20px;
+    width: 14px;
+    height: 14px;
+  }
+  .scheme-days-number{
+    font-size: 5.8rem;
+    padding-bottom: 15px;
+    font-weight: 500;
+    text-align: center;
+  }
+}
+.amount-title{
+  padding-bottom: 10px;
+}
+.line-container{
+padding-bottom: 108px;
+}
+.peek-feed__line{
+  background-color: #404950;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .mid-line{
+    width: 90%;
+    height: 2px;
+    background-color: #72828E;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+}
+
+.line__points{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 10px;
+  .point {
+    background-color:$color-highlighted-text;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    bottom: 40%;
+    position: relative;
+  }
+}
+.line__numbers{
+      display: flex;
+      justify-content: space-between;
+      width: 102.5%;
+      position: relative;
+      left: -2%;
 }
